@@ -3,7 +3,7 @@ import './header.css'
 const Header = () => {
   return (
     <div>
-      Header
+      <button className='btn btn-primary'>Header</button>
     </div>
   )
 }
