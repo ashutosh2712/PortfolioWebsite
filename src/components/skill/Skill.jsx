@@ -208,6 +208,10 @@ const Skill = () => {
               <p>REST APIs</p>
             </li>
             <li>
+              <img src={postman} alt="postman" className="skillImg" />
+              <p>Postman</p>
+            </li>
+            <li>
               <img src={jenkins} alt="jenkins" className="skillImg" />
               <p>Jenkins</p>
             </li>
