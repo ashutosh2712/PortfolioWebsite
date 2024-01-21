@@ -39,7 +39,7 @@
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   transition: var(--transition);
 }
@@ -66,7 +66,7 @@
 }
 
 .aboutContent p {
-  margin: 2rem 0 2.6rem;
+  margin: 1.5rem 0 2rem;
   color: bisque;
 }
 
@@ -89,12 +89,20 @@
 @media screen and (max-width: 600px) {
   .aboutMe {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
   }
 
   .aboutCards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+  }
+
+  .aboutCard {
+    padding: 0.5rem;
+  }
+
+  .aboutIcon {
+    margin-bottom: 0.5rem;
   }
 
   .aboutContent {
