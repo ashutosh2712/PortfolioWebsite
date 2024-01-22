@@ -17,7 +17,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>Achivements and Additonal Skills</h5>
-      <h2> Details(Swipe >>>)</h2>
+      <h2> Details(Swipe)</h2>
       <Swiper
         className="container portfolioContainer"
         modules={[Pagination]}
