@@ -8,7 +8,7 @@ const achievements = [
   {
     id: 1,
     image: GATE,
-    title: "GATE 2020,2021 Cracked",
+    title: "Cracked GATE 2020,2021",
     description:
       "The Graduate Aptitude Test in Engineering (GATE) is an entrance examination conducted in India that primarily tests the comprehensive understanding of undergraduate subjects in engineering and sciences for admission into postgraduate programs.",
   },

@@ -13,7 +13,7 @@ const Education = () => {
     <section id="education">
       <h5>Education</h5>
       <h2>University Educations</h2>
-      <div className="educationContainer">
+      <div className="container educationContainer">
         <VerticalTimeline lineColor="">
           {educations.map((education) => (
             <VerticalTimelineElement

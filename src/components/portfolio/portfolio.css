@@ -41,10 +41,18 @@
     width: var(--container-width-sm);
   }
   .portfolioContainer {
-    height: 35rem;
+    height: 32rem;
+  }
+
+  .playlistImage {
+    width: 16rem;
+    margin: 0 auto 1rem;
   }
 
   .achivementDetails {
     width: var(--container-width-sm);
+  }
+  .portfolio {
+    padding: 1rem;
   }
 }

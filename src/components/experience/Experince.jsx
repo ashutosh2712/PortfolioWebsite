@@ -12,7 +12,7 @@ const Experince = () => {
     <section id="experince">
       <h5>Experience</h5>
       <h2>Industry Experience</h2>
-      <div className="experienceContainer">
+      <div className="container experienceContainer">
         <VerticalTimeline lineColor="">
           {experiences.map((experience) => (
             <VerticalTimelineElement
