@@ -14,3 +14,7 @@ ul.tick-list li::before {
   text-align: right;
   margin-bottom: 0.25rem;
 }
+
+.experienceContainer h3 {
+  text-align: center;
+}

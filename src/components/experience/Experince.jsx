@@ -16,7 +16,7 @@ const Experince = () => {
         <VerticalTimeline lineColor="">
           {experiences.map((experience) => (
             <VerticalTimelineElement
-              key={experience.Id}
+              key={experience.id}
               className="vertical-timeline-element--work"
               contentStyle={{
                 background: "var(--color-primary)",

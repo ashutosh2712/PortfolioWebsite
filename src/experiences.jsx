@@ -2,7 +2,7 @@ import { SiIntel } from "react-icons/si";
 const Intel = [];
 const experiences = [
   {
-    Id: 1,
+    id: 1,
     title: "Full Stack Developer Intern",
     date: "July 2022 - June 2023",
     icon: <SiIntel />,
