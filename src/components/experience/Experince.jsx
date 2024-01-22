@@ -19,11 +19,11 @@ const Experince = () => {
               key={experience.id}
               className="vertical-timeline-element--work"
               contentStyle={{
-                background: "var(--color-primary)",
+                background: "var(--color-bg-variant)",
                 color: "var(--color-white)",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  var(--color-primary)",
+                borderRight: "7px solid  var(--color-bg-variant)",
               }}
               iconStyle={{
                 background: "rgb(33, 150, 243)",
