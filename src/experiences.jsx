@@ -1,8 +1,20 @@
 import { SiIntel } from "react-icons/si";
+import Accen from "./assets/companyData/accenflairImg.png";
 const Intel = [];
 const experiences = [
   {
     id: 1,
+    title: "Full Stack Developer",
+    date: "January 2024 -",
+    icon: <img src={Accen} alt="Accen" />,
+    location: "Hyderabad, India",
+    description: [
+      " We work relentlessly towards providing customized, cost-effective, and target-specific solutions to customer businesses from conception to inception and from execution to excellence",
+    ],
+  },
+
+  {
+    id: 2,
     title: "Full Stack Developer Intern",
     date: "July 2022 - June 2023",
     icon: <SiIntel />,

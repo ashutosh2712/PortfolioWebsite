@@ -27,18 +27,22 @@ import typescript from "../../assets/typescript.png";
 //backend
 import Flask from "../../assets/Flask.png";
 import django from "../../assets/django.png";
-import Firebase from "../../assets/Firebase.png";
+import API from "../../assets/API.png";
+import graphql from "../../assets/graphql.png";
+
 //database
 import sqlite from "../../assets/sqlite.png";
 import sqalchemy from "../../assets/sqalchemy.png";
 import mysql from "../../assets/mysql.png";
 import postgresql from "../../assets/postgresql.png";
+import Firebase from "../../assets/Firebase.png";
 
 //tools
 import Git from "../../assets/Git.png";
+import kafka from "../../assets/kafka.png";
 import docker from "../../assets/docker.png";
 import linux from "../../assets/linux.png";
-import API from "../../assets/API.png";
+
 import postman from "../../assets/postman.png";
 import jenkins from "../../assets/jenkins.png";
 import Vscode from "../../assets/Vscode.png";
@@ -61,6 +65,14 @@ const Skill = () => {
             <li>
               <img src={python} alt="python" className="skillImg" />
               <p>Python</p>
+            </li>
+            <li>
+              <img src={javaScript} alt="javascript" className="skillImg" />
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <img src={typescript} alt="typescript" className="skillImg" />
+              <p>TypeScript</p>
             </li>
             <li>
               <img src={Cplus} alt="c++" className="skillImg" />
@@ -116,14 +128,7 @@ const Skill = () => {
                   <img src={JQuery} alt="JQuery" className="skillImg" />
                   <p>JQuery</p>
                 </li>
-                <li>
-                  <img src={javaScript} alt="javascript" className="skillImg" />
-                  <p>JavaScript</p>
-                </li>
-                <li>
-                  <img src={typescript} alt="typescript" className="skillImg" />
-                  <p>TypeScript</p>
-                </li>
+
                 <li>
                   <img src={react} alt="react" className="skillImg" />
                   <p>React</p>
@@ -151,8 +156,12 @@ const Skill = () => {
                   <p>Django</p>
                 </li>
                 <li>
-                  <img src={Firebase} alt="firebase" className="skillImg" />
-                  <p>Firebase</p>
+                  <img src={API} alt="api" className="skillImg" />
+                  <p>REST APIs</p>
+                </li>
+                <li>
+                  <img src={graphql} alt="graphql" className="skillImg" />
+                  <p>GraphQL</p>
                 </li>
               </ul>
             </li>
@@ -178,6 +187,10 @@ const Skill = () => {
                   <img src={postgresql} alt="postgresql" className="skillImg" />
                   <p>Postgresql</p>
                 </li>
+                <li>
+                  <img src={Firebase} alt="firebase" className="skillImg" />
+                  <p>Firebase</p>
+                </li>
               </ul>
             </li>
           </ul>
@@ -196,17 +209,18 @@ const Skill = () => {
               <p>Git</p>
             </li>
             <li>
+              <img src={kafka} alt="kafka" className="skillImg" />
+              <p>Kafka</p>
+            </li>
+            <li>
               <img src={docker} alt="docker" className="skillImg" />
               <p>Docker</p>
             </li>
             <li>
               <img src={linux} alt="linux" className="skillImg" />
-              <p>linux</p>
+              <p>Linux</p>
             </li>
-            <li>
-              <img src={API} alt="api" className="skillImg" />
-              <p>REST APIs</p>
-            </li>
+
             <li>
               <img src={postman} alt="postman" className="skillImg" />
               <p>Postman</p>
