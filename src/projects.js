@@ -21,6 +21,14 @@ import jinja2 from "./assets/jinja2.png";
 const projects = [
   {
     id: 1,
+    image: EcommerceFront,
+    title: "ClickShop",
+    stacks: [html, css, javaScript, react, redux, python, django],
+    github: "https://github.com/ashutosh2712/E-Commerce-App",
+    demo: "https://clickshop-a7aac0834ac0.herokuapp.com/",
+  },
+  {
+    id: 2,
     image: ChatAppThumb,
     title: "LIVE ChatApp",
     stacks: [html, css, javaScript, react, Firebase],
@@ -29,7 +37,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: QuoraClone,
     title: "Quora Clone",
     stacks: [html, css, javaScript, python, django, postgresql],
@@ -38,21 +46,12 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: GameHub,
     title: "GameHub",
     stacks: [html, css, typescript, react],
     github: "https://github.com/ashutosh2712/game-hub",
     demo: "https://game-hub-zeta-blue.vercel.app/",
-  },
-
-  {
-    id: 4,
-    image: EcommerceFront,
-    title: "ClickShop",
-    stacks: [html, css, javaScript, react, redux, python, django],
-    github: "https://github.com/ashutosh2712/E-commerce-frontend",
-    demo: "",
   },
 
   {

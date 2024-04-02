@@ -9,7 +9,13 @@ const experiences = [
     icon: <img src={Accen} alt="Accen" />,
     location: "Hyderabad, India",
     description: [
-      " We work relentlessly towards providing customized, cost-effective, and target-specific solutions to customer businesses from conception to inception and from execution to excellence",
+      "As a Fullstack Developer, I contribute to the development of SaaS applications tailored for our clients. My role encompasses a wide array of responsibilities spanning backend development, frontend design, and system integration.",
+      "Technology Integration: Spearheaded the integration of Kafka, Twilio, Onsignals, Elasticsearch, and Kibana into our SaaS applications, enhancing functionality and scalability.",
+      "Backend Development: Designed and implemented backend systems using Python Django, ensuring robustness, security, and efficiency in data processing and management. Integrated Stripe payment gateway, facilitating secure and seamless transactions for users.",
+      "Frontend Development: Leveraged React with Redux to develop intuitive and responsive user interfaces, optimizing user experience and engagement.",
+      "Notification System Ownership: Took ownership of the notification system, implementing email, SMS, and WhatsApp notifications to keep users informed and engaged.",
+      "Reports and Admin Interfaces: Developed comprehensive reporting features and streamlined admin interfaces, empowering clients with actionable insights and efficient management tools.",
+      " API Development with GraphQL: Built API endpoints using GraphQL, enabling flexible and efficient data querying and manipulation for both frontend and backend systems.",
     ],
   },
 
