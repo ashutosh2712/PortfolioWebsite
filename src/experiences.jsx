@@ -1,35 +1,52 @@
 import { SiIntel } from "react-icons/si";
+import ethan from "./assets/companyData/ethanai.png";
 import Accen from "./assets/companyData/accenflairImg.png";
+import yene from "./assets/companyData/yene.jpg";
 const Intel = [];
 const experiences = [
   {
     id: 1,
     title: "Full Stack Developer",
-    date: "January 2024 -",
-    icon: <img src={Accen} alt="Accen" />,
-    location: "Hyderabad, India",
+    date: "August 2024 - ",
+    icon: <img src={ethan} alt="Accen" />,
+    location: "Bangalore, India",
     description: [
-      "As a Fullstack Developer, I contribute to the development of SaaS applications tailored for our clients. My role encompasses a wide array of responsibilities spanning backend development, frontend design, and system integration.",
-      "Technology Integration: Spearheaded the integration of Kafka, Twilio, Onsignals, Elasticsearch, and Kibana into our SaaS applications, enhancing functionality and scalability.",
-      "Backend Development: Designed and implemented backend systems using Python Django, ensuring robustness, security, and efficiency in data processing and management. Integrated Stripe payment gateway, facilitating secure and seamless transactions for users.",
-      "Frontend Development: Leveraged React with Redux to develop intuitive and responsive user interfaces, optimizing user experience and engagement.",
-      "Notification System Ownership: Took ownership of the notification system, implementing email, SMS, and WhatsApp notifications to keep users informed and engaged.",
-      "Reports and Admin Interfaces: Developed comprehensive reporting features and streamlined admin interfaces, empowering clients with actionable insights and efficient management tools.",
-      " API Development with GraphQL: Built API endpoints using GraphQL, enabling flexible and efficient data querying and manipulation for both frontend and backend systems.",
+      "As a Full Stack Developer, I led the integration of a project from another company being merged into ours, developing the (LLD) to integrate their codebase into our environment. The project involved migrating two primary applications—one built with ASP.NET and SQL Server, and the other with Flask and MySQL—to our stack, which includes Next.js for the frontend and Django + FastAPI with PostgreSQL for the backend. I handled database migration, server-side deployment in GCP (using Windows and Debian VMs with Cloud SQL), and domain mapping via AWS Route 53. Additionally, I redesigned over 100 APIs, integrated their code into our system, and delivered the project within tight deadlines.",
     ],
   },
 
   {
     id: 2,
+    title: "Full Stack Developer",
+    date: "January 2024 - August 2024",
+    icon: <img src={Accen} alt="Accen" />,
+    location: "Hyderabad, India",
+    description: [
+      "As a Full Stack Developer, spearheaded the integration of Kafka, Twilio, Onsignals, Elasticsearch, and Kibana into SaaS applications, enhancing functionality and scalability. Took ownership of the notification system by implementing email, SMS, and WhatsApp notifications, and developed comprehensive reporting features and streamlined admin interfaces.",
+      "Leveraged React with Redux to create intuitive and responsive user interfaces, optimizing user experience and engagement. Implemented Stripe payment integration and designed GraphQL endpoints for the admin dashboard, ensuring seamless payment processing and efficient data retrieval. Utilized gRPC for synchronous communication between microservices and successfully integrated Hubrise API, showcasing proficiency in full-stack development.",
+    ],
+  },
+
+  {
+    id: 3,
+    title: "Assistant Professor",
+    date: "August 2023- November 2023",
+    icon: <img src={yene} alt="Accen" />,
+    location: "Bangalore, India",
+    description: [
+      "I worked as an Assistant Professor (Grade 1), teaching Computer Science graduates courses on programming, data structures, and problem-solving.",
+    ],
+  },
+
+  {
+    id: 4,
     title: "Full Stack Developer Intern",
     date: "July 2022 - June 2023",
     icon: <SiIntel />,
     location: "Bangalore, India",
     description: [
-      "We developed a Full-stack application for the Data Center and AI group in a team of 8 members.",
-      "It is a Web portal developed using front-end technologies like HTML, CSS, Bootstrap, jinja template, and vanilla JavaScript and back-end technologies like Python Flask, SQLalchemy, and PostgreSQL.",
-      "The Portal represents a cross-intel initiative to drive systematic market-important workload orientation into Intel's product planning, development, and delivery.",
-      "Influenced 250 enterprise data innovators and doubled Intel’s consumption revenue to 60M US Dollars.",
+      "I developed a Full-stack Dashboard application for the Data Center and AI group as part of a team of 8 members.This web portal was created using front-end technologies like HTML, CSS, Bootstrap, and vanilla JavaScript, and back-end technologies like Python Flask, SQLAlchemy, and PostgreSQL. The portal represents a cross-Intel initiative to drive systematic, market-important workload orientation into Intel’s product planning, development, and delivery.",
+      "As part of this project, I worked on benchmarking the performance of software execution on Intel chips and its competitors. I implemented filtering features based on datetime and other fields, populated tables using ag-Grid, and created benchmarking graphs using Highcharts.",
     ],
   },
 ];

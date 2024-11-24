@@ -23,14 +23,14 @@ const About = () => {
               <LuAward className="aboutIcon" />
 
               <h5>Experience</h5>
-              <small>1+ Years Working as Full Stack Developer</small>
+              <small>2.5+ Years Working as Full Stack Developer</small>
             </article>
 
             <article className="aboutCard">
               <PiDesktopTower className="aboutIcon" />
 
               <h5>Projects</h5>
-              <small>7+ Company & Personal Projects</small>
+              <small>15+ Company & Personal Projects</small>
             </article>
 
             <article className="aboutCard">
@@ -47,9 +47,9 @@ const About = () => {
           <p>
             Greetings! I'm Ashutosh. I hold a master's degree in Computer
             Science from the National Institute of Technology (NIT), Hamirpur. I
-            worked as an intern for one year at Intel Pvt Ltd as a Full Stack
-            Developer. Additionally, I have completed numerous Full Stack
-            personal projects, each accompanied by its Git Repository. My
+            worked as a Full Stack Developer for more than 3years in both
+            startups and MNCs. Additionally, I have completed numerous Full
+            Stack personal projects, each accompanied by its Git Repository. My
             projects are hosted LIVE as well. I also manage a YouTube channel
             where I have a playlist dedicated to designing Full Stack projects
             from scratch through live streams. Another playlist on my channel

@@ -19,8 +19,8 @@ import bootstrap from "../../assets/bootstrap.png";
 import css from "../../assets/css.png";
 import html from "../../assets/html-5.png";
 import javaScript from "../../assets/java-script.png";
-import jinja2 from "../../assets/jinja2.png";
-import JQuery from "../../assets/JQuery.png";
+import tailwind from "../../assets/tailwind.png";
+import nextjs from "../../assets/nextjs.png";
 import react from "../../assets/react.png";
 import redux from "../../assets/redux.png";
 import typescript from "../../assets/typescript.png";
@@ -31,7 +31,7 @@ import API from "../../assets/API.png";
 import graphql from "../../assets/graphql.png";
 
 //database
-import sqlite from "../../assets/sqlite.png";
+import mongodb from "../../assets/mongodb.png";
 import sqalchemy from "../../assets/sqalchemy.png";
 import mysql from "../../assets/mysql.png";
 import postgresql from "../../assets/postgresql.png";
@@ -121,18 +121,18 @@ const Skill = () => {
                   <p>Bootstrap</p>
                 </li>
                 <li>
-                  <img src={jinja2} alt="jinja2" className="skillImg" />
-                  <p>Jinja2</p>
+                  <img src={tailwind} alt="tailwind" className="skillImg" />
+                  <p>Tailwind</p>
                 </li>
-                <li>
-                  <img src={JQuery} alt="JQuery" className="skillImg" />
-                  <p>JQuery</p>
-                </li>
-
                 <li>
                   <img src={react} alt="react" className="skillImg" />
                   <p>React</p>
                 </li>
+                <li>
+                  <img src={nextjs} alt="nextjs" className="skillImg" />
+                  <p>Nextjs</p>
+                </li>
+
                 <li>
                   <img src={redux} alt="redux" className="skillImg" />
                   <p>Redux</p>
@@ -148,12 +148,12 @@ const Skill = () => {
 
               <ul className="stackList">
                 <li>
-                  <img src={Flask} alt="flask" className="skillImg" />
-                  <p>Flask</p>
-                </li>
-                <li>
                   <img src={django} alt="django" className="skillImg" />
                   <p>Django</p>
+                </li>
+                <li>
+                  <img src={Flask} alt="flask" className="skillImg" />
+                  <p>Flask</p>
                 </li>
                 <li>
                   <img src={API} alt="api" className="skillImg" />
@@ -172,20 +172,20 @@ const Skill = () => {
               </div>
               <ul className="stackList">
                 <li>
-                  <img src={sqalchemy} alt="sqalchemy" className="skillImg" />
-                  <p>Sqalchemy</p>
-                </li>
-                <li>
-                  <img src={sqlite} alt="sqlite" className="skillImg" />
-                  <p>Sqlite</p>
+                  <img src={postgresql} alt="postgresql" className="skillImg" />
+                  <p>Postgres</p>
                 </li>
                 <li>
                   <img src={mysql} alt="mysql" className="skillImg" />
                   <p>MySQL</p>
                 </li>
+                {/* <li>
+                  <img src={sqalchemy} alt="sqalchemy" className="skillImg" />
+                  <p>Sqalchemy</p>
+                </li> */}
                 <li>
-                  <img src={postgresql} alt="postgresql" className="skillImg" />
-                  <p>Postgresql</p>
+                  <img src={mongodb} alt="mongodb" className="skillImg" />
+                  <p>MongoDb</p>
                 </li>
                 <li>
                   <img src={Firebase} alt="firebase" className="skillImg" />
